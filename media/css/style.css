@@ -1,0 +1,135 @@
+body{
+    font-family: 'Terminal Dosis', sans-serif;
+    margin: 0;
+}
+form{
+    padding: 5px;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0 0 4px 0;
+}
+input[type="text"]{
+    width: 195px;
+}
+ul{
+    list-style: none;
+}
+li{
+    list-style: none;
+}
+input[type="file"]{
+    padding: 7.5px;
+    background-color: #fadc90;
+    outline: 0;
+    color: #383838;
+    border: 1px solid #A2ABC0;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 10px !important;
+    display: inline-block;
+    width: 184px;
+}
+    div#wrapper{
+        width: 1024px;
+        position: relative;
+        margin: 0 auto;
+    }
+    div#wrapperLog{
+        width: 440px;
+        position: relative;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    #btns{
+        padding: 20px;
+    }
+    div#wrapper div input[type="submit"],div#wrapper a#saver,div#wrapper a#preview,button{
+        padding: 6px !important;
+        background-color: #fadc90;
+        outline: 0;
+        color: #383838;
+        border: 1px solid #A2ABC0;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 12px !important;
+        border-radius: 10px;
+        margin-top: 10px !important;
+    }
+    div#wrapper div input[type="submit"]:hover, input[type="submit"]:hover,button:hover{
+            background-color: #fac981;
+        }
+form ul,#area ul,#map ul,#image ul,#news ul{
+    list-style: none;
+    list-style-image: none;
+}
+    form ul li{
+        width: 800px;
+        float: left;
+        position: relative;
+    }
+label{
+    width: 90px;
+    float: left;
+    position: relative;
+    text-align: left;
+    font-size: 12px;
+}
+form{
+    border: 1px solid #fff;
+    margin: 4px;
+}
+input,select{
+    position: relative;
+}
+#creator #lapnel, #creator #rpanel{
+    display: inline;
+}
+#dashboard #allLink,#dashboard #undo,#dashboard #hideLink{
+    background: #fabc76;
+    color: #383838;
+    padding: 3px;
+    font-size: small;
+    display: inline-block;
+    cursor: pointer;
+    margin: 2px;
+    border: 1px solid #A2ABC0;
+}
+
+#allMaps div{
+    position: relative;
+    display: block;
+    height: 20px;
+}
+#allMaps div label{
+    width: 200px !important;
+}
+#firstStep{
+
+}
+.step{
+    font-size: 14px;
+    padding: 10px;
+    background: #fac25d;
+    color: #444;
+}
+.space{
+    margin: 10px 0 10px 0;
+}
+.wizard{
+    position: relative;
+    display: inline-block;
+    width: 275px;
+    vertical-align: top;
+    padding: 20px;
+    background: #fcefa1;
+    border: 10px solid #A2ABC0;
+    border-radius: 10px;
+}
+#access{
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: #fcefa1;
+    border: 10px solid #A2ABC0;
+    border-radius: 10px;
+}
